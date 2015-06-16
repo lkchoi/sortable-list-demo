@@ -1,0 +1,31 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.sortable {
+	list-style: none;
+}
+.sortable.inline li {
+	display: inline-block;
+}
+.sortable li {
+	margin: 1ex;
+	padding: 1px;
+	float: left;
+	/*width: 19.5%;*/
+	/*height: 150px;*/
+	text-align: center;
+}
+.sortable li img {
+	max-height:100%;
+	max-width:100%;
+}
+.sortable li .btn-rm {
+	position:relative;
+	bottom:1.7em;
+	background:rgba(255,255,255,0.6);
+	border:none;
+}
