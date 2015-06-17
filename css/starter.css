@@ -1,9 +1,8 @@
 body {
   padding-top: 50px;
 }
-.starter-template {
+.content {
   padding: 40px 15px;
-  text-align: center;
 }
 .sortable {
 	list-style: none;
@@ -15,8 +14,6 @@ body {
 	margin: 1ex;
 	padding: 1px;
 	float: left;
-	/*width: 19.5%;*/
-	/*height: 150px;*/
 	text-align: center;
 }
 .sortable li img {
@@ -28,4 +25,12 @@ body {
 	bottom:1.7em;
 	background:rgba(255,255,255,0.6);
 	border:none;
+}
+
+.dropzone {
+	font-size: 2em;
+	font-family: 'Slabo', 'Fjalla One', cursive;
+	background: url('../img/bg/ps_neutral.png');
+	margin-left:auto;
+	margin-right:auto;
 }
