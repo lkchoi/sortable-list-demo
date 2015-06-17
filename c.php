@@ -1,8 +1,8 @@
 <?php
 
-function hello_world()
+function upload()
 {
-	echo 'Hello there!';
+	file_put_contents(__DIR__."/twitto.log", print_r($_FILES, true));
 }
 
 function reorder()
