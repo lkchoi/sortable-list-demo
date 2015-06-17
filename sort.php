@@ -12,8 +12,8 @@
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
-    <link rel="stylesheet" href="starter.css">
+    <link rel="stylesheet" href="/css/fonts/stylesheet.css">
+    <link rel="stylesheet" href="/css/starter.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -47,7 +47,22 @@
 
     <div class="container">
 
-      <div class="starter-template">
+      <div class="content">
+        <h1>
+          <a href="#" id="username" class="editable" data-type="text" data-pk="1" data-url="/twitto.php?c=portfolio" data-title="Portfolio Title" data-mode="inline">Portfolio Title</a>
+        </h1>
+        <p>
+          <a href="#" id="description" class="editable" data-type="textarea" data-pk="1" data-url="/twitto.php?c=portfolio" data-title="Portofolio Description" data-placement="bottom" data-mode="inline">Portfolio Description</a>
+        </p>
+      </div>
+
+      <div class="content">
+        <p class="lead">Click or drag &amp; drop images to upload.</p>
+        <form action="/twitto.php?c=upload" class="dropzone"></form>
+      </div>
+
+      <div class="content">
+
         <p class="lead">Drag &amp; drop the images below to reorder them.</p>
         <p>Open the browser JS console to watch the AJAX request/response</p>
 
@@ -67,18 +82,13 @@
 
     </div><!-- /.container -->
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-    <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-    <!-- jquery ui -->
     <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
 
-    <script src="/sortable.js"></script>
+    <script src="/js/sortable.js"></script>
+    <script src="/js/editable.js"></script>
+    <script src="/js/dropzone.js"></script>
   </body>
 </html>
