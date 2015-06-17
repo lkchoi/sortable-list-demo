@@ -52,12 +52,14 @@
     <div class="container">
 
       <div class="content">
+        <button id="enable" class="btn btn-sm btn-default pull-right">Edit</button>
         <h1>
-          <a href="#" id="username" class="editable" data-type="text" data-pk="1" data-url="/twitto.php?c=portfolio" data-title="Portfolio Title" data-mode="inline">Portfolio Title</a>
+          <a href="#" id="username" class="editable" data-type="text" data-title="Portfolio Title">Portfolio Title</a>
         </h1>
         <p>
-          <a href="#" id="description" class="editable" data-type="textarea" data-pk="1" data-url="/twitto.php?c=portfolio" data-title="Portofolio Description" data-placement="bottom" data-mode="inline">Portfolio Description</a>
+          <a href="#" id="description" class="editable" data-type="textarea" data-title="Portofolio Description" data-placement="bottom">Portfolio Description</a>
         </p>
+        <input id="portfolio_token" type="hidden" value="<?php echo $token = quickRandom(32) ?>">
       </div>
 
       <div class="content">
