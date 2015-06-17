@@ -44,7 +44,8 @@ $(function() {
 				url: '/twitto.php?c=reorder',
 				type: 'POST',
 				data: {
-					order: $(this).sortable('toArray')
+					order: $(this).sortable('toArray'),
+					portfolio_token: php.portfolio_token
 				},
 				success: function(response) {
 					console.log(response);
@@ -68,7 +69,7 @@ $(function() {
 	$('#refresh_gallery').click(function() {
 		$.ajax({
 			method: "GET",
-			url: "/twitto.php?c=refresh",
+			url: "/twitto.php?c=refresh&portfolio_token=" + php.portfolio_token,
 			success: function(response) {
 				
 				// FIXME use .replace() instead?
