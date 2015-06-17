@@ -12,6 +12,8 @@
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Slabo+27px' rel='stylesheet' type='text/css'>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css" rel="stylesheet"/>
     <link rel="stylesheet" href="/css/fonts/stylesheet.css">
     <link rel="stylesheet" href="/css/dropzone.min.css">
     <link rel="stylesheet" href="/css/starter.css">
