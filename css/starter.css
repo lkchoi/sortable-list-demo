@@ -17,8 +17,8 @@ body {
 	text-align: center;
 }
 .sortable li img {
-	max-height:100%;
-	max-width:100%;
+	/* important: fix the height of the tile images to prevent empty blocks */
+	height: 200px;
 }
 .sortable li .btn-rm {
 	position:relative;
