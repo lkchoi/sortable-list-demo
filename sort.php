@@ -68,14 +68,19 @@
       </div>
 
       <div class="content">
-
+  
+        <button id="refresh_gallery" class="btn btn-sm btn-default pull-right">
+          <i class="fa fa-refresh"></i>
+          Refresh
+        </button>
         <p class="lead">Drag &amp; drop the images below to reorder them.</p>
         <p>Open the browser JS console to watch the AJAX request/response</p>
 
-        <ul class="sortable inline">
+        <ul id="gallery" class="sortable inline">
           <li id="img_00"><img src="/img/05702fcc2fa610620e344966c937c3b9.jpg"></li>
           <li id="img_01"><img src="/img/1f8d7fbe01dbc795a41eabf989da9740.jpg"></li>
           <li id="img_02"><img src="/img/32ea877e728ed3b0e925f99798bdc751.jpg"></li>
+          <!-- 
           <li id="img_03"><img src="/img/4c8c220d0886de1091fcdfe5582c34ea.jpg"></li>
           <li id="img_04"><img src="/img/58d9b8e7bd741b65d317562d8278715b.jpg"></li>
           <li id="img_05"><img src="/img/59873d6c69db71378a89fc8eb0430d1c.jpg"></li>
@@ -83,6 +88,7 @@
           <li id="img_07"><img src="/img/809476c2a8754f31331dc1a0d4405509.jpg"></li>
           <li id="img_08"><img src="/img/df8731966a4babba183e6cc77ee330d7.jpg"></li>
           <li id="img_09"><img src="/img/f59f502b4d388d2d9359a70885040cc8.jpg"></li>
+           -->
         </ul>
       </div>
 
@@ -99,6 +105,7 @@
 
     <script src="/js/sortable.js"></script>
     <script src="/js/editable.js"></script>
+    <script src="/js/refresh.js"></script>
     <script src="/js/dropzone.js"></script>
   </body>
 </html>
