@@ -103,9 +103,7 @@
     <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
 
-    <script src="/js/sortable.js"></script>
-    <script src="/js/editable.js"></script>
-    <script src="/js/refresh.js"></script>
     <script src="/js/dropzone.js"></script>
+    <script src="/js/app.js"></script>
   </body>
 </html>
